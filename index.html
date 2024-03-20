@@ -107,7 +107,7 @@
                 </li>
                 
             </ul>
-            <video height="600" autoplay muted loop>
+            <video id="myVideo" height="600" autoplay muted loop>
                 <source src="img/IMG_7087.MP4" type="video/mp4">
                 <source src="img/IMG_7087.ogg" type="video/ogg">
                 Your browser does not support the video tag.
@@ -257,6 +257,20 @@
             icon.classList.toggle('fa-times');
         }
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('myVideo');
+
+            var promise = video.play();
+
+            if (promise !== undefined) {
+                promise.then(_ => {
+                }).catch(error => {
+                });
+            }
+        });
+    </script>
+
 </body>
 
 </html>
