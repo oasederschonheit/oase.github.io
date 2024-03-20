@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Beauty Salon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .container,
+        .container-fluid,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            /* width: 100%; */
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+            /* margin-right: auto;
+    margin-left: auto; */
+        }
+
+        @media (min-width: 992px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm {
+                max-width: 1440px;
+            }
+        }
+
+
+        @media (min-width: 768px) {
+
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm {
+                max-width: 1440px;
+            }
+        }
+
+        @media (min-width: 576px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm {
+                max-width: 1440px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body style="background-color: #333D2F;">
+    <div class="top">
+        <div class="content_box container">
+            <nav>
+                <img src="../img/Screenshot_5.png" alt="logo" class="nav_logo">
+                <ul class="nav-links">
+                    <li style="margin-top: 25px;"><div class="lang-dropdown">
+                        <button class="dropbtn" style="margin-top: -8px;">Sprache</button>
+                        <div class="lang-dropdown-content">
+                            <a href="index_de.html">Deutsch</a>
+                            <a href="./translated/index_uk.html">Українська</a>
+                            <a href="./translated/index.html">Русский</a>
+                        </div>
+                    </div></li>
+                    <li style="margin-top: 25px;"><a href="#prices_link">Dienstleistungen</a></li>
+                    <li style="margin-top: 25px;"><a href="#my_works">Arbeitsplatz</a></li>
+                    <li style="margin-top: 25px;"><a href="#place">Adresse</a></li>
+                    <li style="margin-top: 25px;"><a href="#room">Zertifikate</a></li>
+                    
+                </ul>
+                
+                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+            <hr style="color: #ffffff; margin: 0;">
+            <div class="head">
+                <button class="call"><a href="https://oasesderschonheitt.setmore.com" target="_blank" style="text-decoration: none; color: #ffffff;">Termin vereinbaren</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="about container">
+        <h1 class="about_me">Über uns</h1>
+        <div class="content_about">
+            <ul class="about_list">
+                <li class="about_list_elm">Herzlich willkommen in unserem gemütlichen und stilvollen Schönheitssalon 'Oase der Schönheit'! Wir sind stolz darauf, ein breites Spektrum von Dienstleistungen anzubieten, die Ihre natürliche Schönheit unterstreichen und Ihnen ein Gefühl der Zufriedenheit und Entspannung verleihen werden. Unsere qualifizierten Meister bieten Ihnen gerne hochwertige Behandlungen in einer gemütlichen und freundlichen Atmosphäre.
+                </li>
+                
+            </ul>
+            <video height="600" autoplay muted loop>
+                <source src="img/IMG_7087.MP4" type="video/mp4">
+                <source src="img/IMG_7087.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div class="prices container" id="prices_link">
+        <h1 class="price_heading">Dienstleistungen</h1>
+        <div class="prices_back">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card" style="background-color: #333D2F; border-color: #333D2F;">
+                    <div class="card-body ">
+                      <h5 class="card-title">Hydrafacial</h5>
+                      <p class="card-text">Effektive Verfahren, die darauf abzielen, den Alterungsprozess zu verlangsamen, damit Ihre Haut straff und jugendlich bleibt. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="background-color: #333D2F; border-color: #333D2F;">
+                    <div class="card-body">
+                      <h5 class="card-title">AntyAging</h5>
+                      <p class="card-text"> Effektive Verfahren, die darauf abzielen, den Alterungsprozess zu verlangsamen, damit Ihre Haut straff und jugendlich bleibt.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #333D2F; border-color: #333D2F;">
+                      <div class="card-body">
+                        <h5 class="card-title">Laser-Haarentfernung</h5>
+                        <p class="card-text">Sichere und effektive Entfernung unerwünschter Haare für lang anhaltende Ergebnisse.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="background-color: #333D2F; border-color: #333D2F;">
+                    <div class="card-body">
+                      <h5 class="card-title">Maniküre und Pediküre</h5>
+                      <p class="card-text">Erlauben Sie unseren erfahrenen Meistern, das perfekte Aussehen für Ihre Nägel zu schaffen, indem sie Pflege und Stil bieten.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #333D2F; border-color: #333D2F;">
+                      <div class="card-body">
+                        <h5 class="card-title">Aromatherapie</h5>
+                        <p class="card-text">Tauchen Sie ein in die Welt des Wohlbefindens und der Entspannung mit unseren aromatischen Verfahren, die Ihren Besuch mit Freuden- und beruhigenden Düften erfüllen.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                  <div class="card" style="background-color: #333D2F; border-color: #333D2F;">
+                    <div class="card-body">
+                      <h5 class="card-title">Kostenlose Beratung und Produkte vorrätig</h5>
+                      <p class="card-text">Unsere Experten helfen Ihnen gerne dabei, Ihren Hauttyp zu bestimmen, die richtige Pflege auszuwählen und die besten Produkte anzubieten. Die gesamte Produktpalette ist direkt bei uns erhältlich!</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="links_prices">
+                <a class="link_to_pdf" href="./img/preise_de.pdf" target="_blank">Preise</a>
+            </div>
+        </div>
+    </div>
+    <div class="works container" id="my_works">
+        <h1 class="price_heading">Arbeitsplatz</h1>
+        <div class="results">
+            <div class="block-1-results">
+                <img src="img/photo_1_2024-02-13_22-17-46.jpg" alt="photo" class="my_work_photo">
+                <img src="img/photo_3_2024-02-13_22-17-46.jpg" alt="photo" class="my_work_photo">
+                <img src="img/photo_2_2024-02-13_22-17-46.jpg" alt="photo" class="my_work_photo">
+            </div>
+            <div class="block-2-results">
+                <img src="img/DSC09787.jpg" alt="photo" class="my_work_photo">
+                <img src="img/photo_2024-03-19_14-54-17.jpg" alt="photo" class="my_work_photo">
+                <img src="img/photo_2024-03-19_14-54-38.jpg" alt="photo" class="my_work_photo">
+            </div>
+        </div>
+    </div>
+    <div class="my_work_place container" id="room">
+        <h1 class="price_heading">Zertifikate</h1>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/photo_1_2024-02-08_13-15-28.jpg" class="d-block" alt="1" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/photo_2_2024-02-08_13-15-28.jpg" class="d-block" alt="2" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/photo_3_2024-02-08_13-15-28.jpg" class="d-block" alt="3" style="max-width: 100%; height: auto;">
+                </div>
+               
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="map container" id="place">
+        <h1 class="price_heading">Adresse und Kontakte</h1>
+        <div class="map_and_links">
+            <div class="contacts">
+                <ul class="contacts_list">
+                    <li><a href="https://www.instagram.com/reel/C2-UuGSqdEd/?igsh=b2NvY3cyZ2dqNmho" class="contact_link"
+                            target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="mailto:oasebeautysalonberlin@gmail.com" class="contact_link" target="_blank"><i
+                                class="fa-brands fa-telegram"></i></a></li>
+                </ul>
+                <div class="content_contact">Adresse:
+                    Berliner Allee 164, Berlin, Germany 13088</div>
+            </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2425.9282412840025!2d13.467207199999997!3d52.552822899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84d32e5a10f41%3A0x50b34b08ba11487c!2sBerliner%20Allee%20164%2C%2013088%20Berlin!5e0!3m2!1sru!2sde!4v1707607472657!5m2!1sru!2sde" height="450" style="border:0; margin-bottom: 55px; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+    <hr style="color: #ffffff;">
+    <div class="footer container">
+        <div class="footer_content">
+            <div style="max-width: 50%; height: auto;"><img src="../img/Screenshot_4.png" alt="logo"></div>
+            <div><a href="https://oasesderschonheitt.setmore.com" class="appointment" target="_blank">Termin vereinbaren</a></div>
+        </div>
+    </div>
+    <div class="rights container">
+        <p class="footer_text">© 2024 Alle Rechte vorbehalten.</p>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            const icon = document.querySelector('.icon i');
+
+            navLinks.classList.toggle('show');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        }
+    </script>
+</body>
+
+</html>

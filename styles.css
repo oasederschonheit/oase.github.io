@@ -202,7 +202,7 @@ body {
 
 .block-1-results {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 24px;
     /* width: 100%;
     height: auto; */
@@ -212,6 +212,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    gap: 24px;
 }
 
 .my_work_photo {
@@ -219,9 +220,11 @@ body {
     max-height: 535px;
     margin-bottom: 55px;
     color: #898787;
-    border: solid;
+    /* border: solid; */
     border-color: #ffffff;
     border-radius: 5px;
+    /* border-color: #E6C068; */
+    box-shadow: 10px 10px #E6C068;
     /* box-shadow: 0 8px 16px rgb(243, 217, 155) */
 }
 
@@ -532,6 +535,11 @@ nav {
         flex-direction: column;
         gap: 5px;
     }
+
+    .block-2-results {
+        flex-direction: column;
+        gap: 5px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -741,6 +749,10 @@ nav {
     }
 
     .block-1-results {
-        width: 90%;
+        width: 70%;
+    }
+
+    .block-2-results {
+        width: 70%;
     }
 }
