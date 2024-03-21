@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Beauty Salon</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .container,
+        .container-fluid,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            /* width: 100%; */
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+            /* margin-right: auto;
+    margin-left: auto; */
+        }
+
+        @media (min-width: 992px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm {
+                max-width: 1440px;
+            }
+        }
+
+
+        @media (min-width: 768px) {
+
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm {
+                max-width: 1440px;
+            }
+        }
+
+        @media (min-width: 576px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm {
+                max-width: 1440px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body style="background-color: #333D2F;">
+    <div class="top">
+        <div class="content_box container">
+            <nav>
+                <img src="../img/Screenshot_5.png" alt="logo" class="nav_logo">
+                <ul class="nav-links">
+                    <li style="margin-top: 25px;"><a href="../index.html">Hauptseite</a></li>
+                    
+                </ul>
+                
+                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+            <hr style="color: #ffffff; margin: 0;">
+            <div style="color: #ffffff;padding-left: 40px; padding-right: 40px; padding-top: 25px; padding-bottom: 25px;">
+                <h1 class="about_me">Impressum</h1>
+                <div style="padding-top: 25px;">
+
+                    <p style="padding-bottom: 10px;"><b>Angaben gemäß & 5 TMG:</b></p>
+                    <p style="padding-bottom: 5px; font-style: italic;">Dominik Kaufhold</p>
+                    <p style="padding-bottom: 5px; font-style: italic;">Berliner Allee 164</p>
+                    <p style="padding-bottom: 5px; font-style: italic;">13088 Berlin</p>
+                    <p style="padding-bottom: 5px; font-style: italic;">Telefon: 0176-10428775</p>
+                    <p style="padding-bottom: 30px; font-style: italic;">E-Mail: d_kaufhold@hotmail.com</p>
+
+                </div>
+               <div>
+                <p style="padding-bottom: 10px;"><b>Haftungsausschluss-Disclaimer:</b></p>
+                <p style="padding-bottom: 10px;"><b>Haftung für Inhalte</b></p>
+                
+                <p>
+                    Die Inhalte unserer Website wurden mit größtmöglicher Sorgfalt erstellt. Für die
+                    Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine
+                    Gewähr übernehmen. Als Diensteanbieter sind wir gemäß $ 7 Abs.1 TMG für
+                    eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
+                    Nach 5$ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet,
+                    übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach
+                    Umständen zu forschen, die af eine rechtswidrige Tätigkeit hinweisen.
+                    Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen
+                    nach den allgemeinen Gesetzen bleiben hiervon unberührt.
+                    Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer
+                    konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden
+                    Rechtsverletzungen werden wir dies Inhale umgehend entfernen.
+                </p>
+               </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <hr style="color: #ffffff;">
+    <div class="footer container">
+        <div class="footer_content">
+            <div style="max-width: 50%; height: auto;"><img src="../img/Screenshot_4.png" alt="logo"></div>
+            <div><a href="https://oasesderschonheitt.setmore.com" class="appointment" target="_blank">Termin vereinbaren</a></div>
+        </div>
+    </div>
+    <div class="rights container">
+        <p class="footer_text">© 2024 Alle Rechte vorbehalten.</p>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            const icon = document.querySelector('.icon i');
+
+            navLinks.classList.toggle('show');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('myVideo');
+
+            var promise = video.play();
+
+            if (promise !== undefined) {
+                promise.then(_ => {
+                }).catch(error => {
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>
